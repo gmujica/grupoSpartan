@@ -1,0 +1,247 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  body{
+    font-size: 10px
+  }
+  .onlydesktop{
+    display: none;
+  }
+  .sp_carousel-logo {
+    margin-top: 10%;
+    left: 50%;
+    margin-left: -10%;
+    height: 80px;
+ }
+ .divider2 h2{
+   margin-top: 2.2em;
+ }
+ .callout img{
+   width: 100%
+ }
+ .inline1 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 img, .inline3 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 , .inline3 {
+   margin:10%;
+ }
+ .carousel-caption p {
+     line-height: 1.2em;
+     font-size: 1em;
+ }
+ .carousel-caption a {
+
+     line-height: 1em;
+     font-size: 1em;
+ }
+
+ #solmap{
+  width: 100%
+ }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media (min-width : 321px) and (max-width : 768px) {
+  .onlydesktop{
+    display: none;
+  }
+  .sp_carousel-logo {
+    margin-top: 10%;
+    left: 50%;
+    margin-left: -10%;
+    height: 200px;
+ }
+ .divider2 h2{
+   margin-top: 2.2em;
+ }
+ .callout img{
+   width: 100%
+ }
+ .inline1 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 img, .inline3 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 , .inline3 {
+   margin:10%;
+ }
+ .carousel-caption p {
+     line-height: 1.2em;
+     font-size: 1em;
+ }
+ .carousel-caption a {
+
+     line-height: 1em;
+     font-size: 1em;
+ }
+}
+/* Smartphones (portrait) ----------- */
+@media (min-width : 720px)  {
+  .onlydesktop{
+    display: none;
+  }
+  .sp_carousel-logo {
+    margin-top: 10%;
+    left: 50%;
+    margin-left: -10%;
+    height: 80px;
+ }
+ .divider2 h2{
+   margin-top: 2.2em;
+ }
+ .callout img{
+   width: 100%
+ }
+ .inline1 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 img, .inline3 img{
+   margin-left:25%;
+   width:50%
+ }
+ .inline2 , .inline3 {
+   margin:10%;
+ }
+ .carousel-caption p {
+     line-height: 1.2em;
+     font-size: 1em;
+ }
+ .carousel-caption a {
+
+     line-height: 1em;
+     font-size: 1em;
+ }
+ #solmap{
+  width: 100%
+ }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+  .onlydesktop{
+    display: none;
+  }
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+  .onlydesktop{
+    display: none;
+  }
+  #carousel-example-generic img{
+    height: 100px
+  }
+  .callout img{
+    width: 100%
+  }
+  .navbar-inverse .navbar-nav > li > a{
+    margin-right: 0.5em
+  }
+  .carousel-caption p {
+      line-height: 1.2em;
+      font-size: 0.8em;
+  }
+  .carousel-caption a {
+
+      line-height: 0.5em;
+      font-size: 0.5em;
+  }
+  .insoluciones img{
+    width: 100%
+  }
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+  .onlydesktop{
+    display: none;
+  }
+  #carousel-example-generic img{
+    height: 100px
+  }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+  .onlydesktop{
+    display: none;
+  }
+  #carousel-example-generic img{
+    height: 100px
+  }
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen
+and (min-width : 1200px) {
+.onlymobile{
+  display: none;
+}
+
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  .onlymobile{
+    display: none;
+  }
+  .carousel-caption{
+        padding-bottom: 15%;
+  }
+}
+
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .onlydesktop{
+    display: none;
+  }
+
+}
+
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .onlydesktop{
+    display: none;
+  }
+
+}
+
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+  .onlydesktop{
+    display: none;
+  }
+
+}

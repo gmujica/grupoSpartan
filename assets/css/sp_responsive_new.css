@@ -1,0 +1,223 @@
+@media (min-width:320px) {
+ /* smartphones, iPhone, portrait 480x320 phones */
+ .onlydesktop{
+   display: none;
+ }
+ body{
+   font-size: 10px
+ }
+ .sp_carousel-logo h1 img {
+   height: 100px;
+}
+ .sp_carousel-logo2 h1 img {
+   height: 80px;
+}
+
+.carousel-caption p {
+    line-height: 1.2em;
+    font-size: 1em;
+}
+.carousel-caption a {
+
+    line-height: 1em;
+    font-size: 1em;
+}
+.carousel-caption{
+
+}
+.carousel-caption2 p{
+  margin-top: 50%
+}
+.divider2 h2{
+  margin-top: 2.2em;
+}
+.callout img{
+ width: 80% ;
+ /*display: block;*/
+ margin: auto;
+}
+.sp_btnbggray{
+   width: 80% ;
+   /*display: block;*/
+   margin: auto;
+}
+
+#solmap{
+ width: 100%
+}
+
+#serimg{
+ width: 100%
+}
+
+#alianzas img{
+  padding : 0px;
+  width: 100%;
+}
+#alianzas map{
+  padding : 0px;
+}
+}
+@media (min-width:481px) {
+/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+.onlydesktop{
+  display: none;
+}
+body{
+  font-size: 14px
+}
+.divider2 h2{
+ margin-top: 2.2em;
+}
+
+
+.navbar-inverse .navbar-nav > li > a{
+  margin-right: 0.5em
+}
+}
+@media (min-width:641px) {
+/* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+.onlydesktop{
+  display: none;
+}
+.sp_carousel-logo h1 img {
+  height: 280px;
+}
+.sp_carousel-logo2 h1 img{
+  height: 210px;
+}
+.divider2 h2{
+ margin-top: 2.2em;
+}
+.callout img{
+ width: 60% ;
+ /*display: block;*/
+ margin: auto;
+}
+.sp_btnbggray{
+   width: 60% ;
+   /*display: block;*/
+   margin: auto;
+}
+
+
+
+}
+@media (min-width:961px) {
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+body{
+  font-size: 16px
+}
+.onlydesktop{
+  display: none;
+}
+
+
+/*.insoluciones img{
+  width: 100%
+}*/
+}
+@media (min-width:1025px) {
+/* big landscape tablets, laptops, and desktops */
+.onlymobile{
+  display: none;
+}
+.onlydesktop{
+  display: block;
+}
+.callout img{
+  width: 100%
+}
+.sp_btnbggray{
+   width: 100% ;
+
+}
+#solmap{
+width: auto;
+}
+#serimg{
+width: auto;
+}
+#alianzas img{
+  padding : 0 80px;
+  width: 100%;
+}
+#alianzas map{
+  padding : 0 80px;
+}
+.sp_carousel-logo h1 img {
+  height: 400px;
+}
+.carousel-caption p {
+
+    line-height: 1.2em;
+    font-size: 2em;
+
+}
+.carousel-caption a {
+
+    line-height: 0.5em;
+    font-size: 1em;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+  margin-right: inherit;
+}
+
+}
+@media (min-width:1281px) {
+/* hi-res laptops and desktops */
+.onlymobile{
+  display: none;
+}
+.onlydesktop{
+  display: block;
+}
+
+
+
+}
+@media (min-width:1383px) {
+/* hi-res laptops and desktops */
+.onlymobile{
+  display: none;
+}
+.onlydesktop{
+  display: block;
+}
+.carousel-caption {
+  padding-bottom: 10em
+
+}
+
+
+}
+
+@media (min-width:1600px) {
+/* hi-res laptops and desktops */
+.onlymobile{
+  display: none;
+}
+.onlydesktop{
+  display: block;
+}
+.carousel-caption {
+  padding-bottom: 15em
+
+}
+@media (min-width:1783px) {
+/* hi-res laptops and desktops */
+.onlymobile{
+  display: none;
+}
+.onlydesktop{
+  display: block;
+}
+.carousel-caption {
+  padding-bottom: 20em
+
+}
+
+
+}
